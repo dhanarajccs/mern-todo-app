@@ -11,6 +11,8 @@ app.use(express.json());
 const PORT = process.env.PORT || 5500;
 
 
+// Lets connect to MongoDB
+
 
 // Add Port and connect to server
 app.listen(PORT, () => console.log("Server connected")); 
